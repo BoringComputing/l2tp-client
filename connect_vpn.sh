@@ -23,7 +23,7 @@ cat > /etc/ipsec.conf <<EOF
 # basic configuration
 
 config setup
-  # strictcrlpolicy=yes
+  strictcrlpolicy=yes
   # uniqueids = no
 
 # Add connections here.
